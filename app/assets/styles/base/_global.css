@@ -1,0 +1,14 @@
+body {
+  color: #333;
+  font-family: "roboto", "san-serif";
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  color: $mainOrange;
+}
