@@ -5,6 +5,7 @@ const postcssPlugins = [
   require("postcss-simple-vars"),
   require("postcss-nested"),
   require("autoprefixer"),
+  require("postcss-hexrgba"),
 ];
 module.exports = {
   entry: "./app/assets/scripts/App.js", //ene folder-oos bundle hiine
@@ -18,7 +19,7 @@ module.exports = {
     },
     contentBase: path.join(__dirname, "app"),
     hot: true,
-    port: 8000,
+    port: 4000,
   },
   mode: "development",
   module: {
