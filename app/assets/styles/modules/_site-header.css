@@ -54,6 +54,7 @@
       position: absolute;
       top: 8px;
       left: 0;
+
       width: 20px;
       height: 3px;
       background-color: #fff;
@@ -101,6 +102,7 @@
       padding-top: 0;
       z-index: 1;
       transform: scale(1);
+      opacity: 1;
     }
     &--is-visible {
       opacity: 1;
