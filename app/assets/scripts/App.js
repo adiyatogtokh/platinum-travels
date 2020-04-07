@@ -1,9 +1,13 @@
 import "../styles/styles.css";
-import RevealOnScroll from "./modules/reveal";
+
 import MobileMenu from "./modules/mobile-menu";
+import RevealOnScroll from "./modules/reveal";
+import StickyHeader from "./modules/StickyHeader";
 
 let mobileMenu = new MobileMenu();
-let revealOnScroll = new RevealOnScroll();
+new RevealOnScroll(document.querySelectorall(".feature-item"), 75);
+new RevealOnScroll(document.querySelectorall(".testimonial"), 50);
+let stickyHeader = new StickyHeader();
 if (module.hot) {
   module.hot.accept();
 }
